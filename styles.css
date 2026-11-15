@@ -2,34 +2,65 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    border: 1px solid red;
 }
 
 header {
-    background-color: aqua;
-    padding: 10px;
-    height: 10vh;
+    background-color: #192434;
+    padding: 3vh 10vw;
+    color: #fff;
 }
 
-nav {
+nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+nav a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: #63757f;
 }
 
 .sec-one{
-    padding: 10vh;
-    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    height: 50vh;
+    padding: 10vh 10vw;
+    background-color: #192434;
+    color: #fff;
+}
+
+.sec-one h2{
+    font-size: 3rem;
+}
+
+.sec-one-ctn{
+    display: flex;
+    flex-direction: column;
+}
+
+#sec-one-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6d757e;
+    height: 250px;
+    width: 600px;
 }
 
 .signup-btn{
     border: none;
     padding: 10px;
-    color: aliceblue;
+    color: #fff;
     border-radius: 5px;
-    background-color: blue;
+    background-color: #3883f6;
+    max-height: 40px;
+    max-width: 100px;
 }
 
 .sec-two{
-    padding: 10vh;
+    padding: 15vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,7 +68,7 @@ nav {
 
 .sec-two h2{
     font-size: 2rem;
-    margin: 3rem;
+    margin-bottom: 3rem;
 }
 
 .sec-two-card{
@@ -51,34 +82,56 @@ nav {
     justify-content: space-around;
     height: 150px;
     width: 150px;
-    border: 3px solid aqua;
-    border-radius: 5px;
+    border: 5px solid #3883f6;
+    border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .cards{
-    padding: 10px;
-    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .sec-three{
-    padding: 10vh;
-    background-color: gray;
+    padding: 15vh 25vw;
+    background-color: #e6e8ec;
+}
+
+#quote{
+    font-size: 2rem;
+}
+
+#author{
+    display: flex;
+    justify-content: end;
+    font-size: 1.5rem;
+    font-weight: 700;
 }
 
 .sec-four {
-    margin: 50px 30px;
-    padding: 50px 30px;
+    margin: 10vh 15vw;
+    padding: 5vh 10vw;
     display: flex;
-    justify-content: center;
-    background-color: blue;
-    border-radius: 30px;
+    justify-content: space-between;
+    background-color: #3883f6;
+    border-radius: 10px;
     color: white;
 }
 
 #signup-btn {
-    border: 1px solid white;
+    border: 2px solid white;
 }
 
 .sec-four-one {
     flex-direction: column;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #192434;
+    height: 7vh;
+    color: #fff;
 }
