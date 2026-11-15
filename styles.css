@@ -4,16 +4,32 @@
     box-sizing: border-box;
 }
 
+html{
+    font-family: 'Roboto';
+    src: url(fonts/Roboto/Roboto-VariableFont_wdth,wght.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 header {
-    background-color: #192434;
+    background-color: #1f2937;
     padding: 3vh 10vw;
-    color: #fff;
 }
 
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+nav h1{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
 }
 
 #nav-links{
@@ -30,12 +46,19 @@ nav a{
 .sec-one{
     display: flex;
     padding: 10vh 10vw;
-    background-color: #192434;
+    background-color: #1f2937;
     color: #fff;
 }
 
 .sec-one h2{
-    font-size: 3rem;
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.sec-one-ctn p{
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .sec-one-ctn{
@@ -58,7 +81,7 @@ nav a{
     padding: 10px;
     color: #fff;
     border-radius: 5px;
-    background-color: #3883f6;
+    background-color: #3882f6;
     max-height: 40px;
     max-width: 100px;
 }
@@ -71,7 +94,9 @@ nav a{
 }
 
 .sec-two h2{
-    font-size: 2rem;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
     margin-bottom: 3rem;
 }
 
@@ -105,11 +130,14 @@ nav a{
 
 .sec-three{
     padding: 15vh 25vw;
-    background-color: #e6e8ec;
+    background-color: #e5e7eb;
 }
 
 #quote{
-    font-size: 2rem;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    font-style: italic;
 }
 
 #author{
@@ -143,7 +171,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #192434;
+    background-color: #1f2937;
     height: 7vh;
     color: #fff;
 }
